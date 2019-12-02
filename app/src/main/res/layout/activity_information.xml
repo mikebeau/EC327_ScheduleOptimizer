@@ -9,34 +9,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BUtiful Schedule"
+        android:text="Preferences"
         android:id="@+id/title"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.158" />
-
-    <Button
-        android:id="@+id/openInfo"
-        android:layout_width="250dp"
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/title"
-        android:text="Create Schedule"
-        android:layout_margin="50dp"/>
-
-    <Button
-        android:id="@+id/openSavedSchedule"
-        android:layout_width="250dp"
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/openInfo"
-        android:text="Saved Schedules"
-        android:layout_margin="0dp"/>
 
 
 </RelativeLayout>
