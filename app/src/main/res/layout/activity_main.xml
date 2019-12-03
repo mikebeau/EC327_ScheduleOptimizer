@@ -24,19 +24,27 @@
         android:id="@+id/openInfo"
         android:layout_width="250dp"
         android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
         android:layout_below="@id/title"
-        android:text="Create Schedule"
-        android:layout_margin="50dp"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:fadingEdge="horizontal|vertical"
+        android:text="Create Schedule" />
 
     <Button
         android:id="@+id/openSavedSchedule"
         android:layout_width="250dp"
         android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
         android:layout_below="@id/openInfo"
-        android:text="Saved Schedules"
-        android:layout_margin="0dp"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:fadingEdge="horizontal|vertical"
+        android:text="Saved Schedules" />
 
 
 </RelativeLayout>
